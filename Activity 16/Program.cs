@@ -14,7 +14,7 @@ namespace Task_1
         {
             string[] friends = { "\nAlice", " \nBob", "\nCharlie", "\nDavid", "\nEve" };
             File.WriteAllLines("friends.txt", friends);
-            Console.WriteLine("Friends' names written to file.");
+            Console.WriteLine("Friends' names written to file");
         }
     }
 
